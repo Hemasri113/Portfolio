@@ -72,7 +72,7 @@ portfolio/
 
 ## 🌐 Live Demo
 
-Visit the live website: [https://github.com/Hemasri113/portfolio.git]
+Visit the live website: [https://hemasri113.github.io/Portfolio/]
 
 ## 📱 Social Links
 
