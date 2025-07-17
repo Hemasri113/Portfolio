@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><span>H</span>S</h1>
+      <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+      <a href="#contact" class="btn-talk">Visit</a>
+    </header>
+    <section class="home" id="home">
+      <div class="content">
+        <h2>Hi, I'm <span class="typed-text">Hemasri</span></h2>
+        <p>
+          I'm a 3rd-year B.Tech CSE student at SRM University-AP with a passion for coding and problem-solving. I enjoy exploring tech, learning new skills, and building smart solutions to real-world challenges.
+        </p>
+        <a href="#education" class="btn">Education</a>
+        <a href="#projects">See Projects</a>
+      </div>
+      <div class="profile-pic">
+        <img src="profile.jpeg" alt="profile-image" />
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/hema-sri-24ba73291/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Hemasri113" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:hemasripothuguntla122@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+    <hr class="section-separator" />
+    <section id="about" class="about-section">
+      <h2>About</h2>
+      <div class="about-content">
+        <p>
+          I'm Hemasri, a dedicated and curious student currently pursuing my B.Tech 3rd year in Computer Science Engineering at SRM University-AP. I enjoy learning new technologies and solving problems through code. My academic journey has helped me build a strong foundation in programming concepts and logical thinking. I actively participate in coding events and hands-on projects to improve my skills. Apart from tech, I love staying organized and always aim to give my best in whatever I do. My areas of interest include programming, database management, web development, and core computer science concepts.
+        </p>
+      </div>
+    </section>
+    <hr class="section-separator" />
+    <section id="education" class="edu-section">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-container">
+        <div class="edu-item">
+          <div class="edu-year">2027 Expected</div>
+          <div class="edu-info">
+            <h3>Bachelor’s Degree</h3>
+            <p>SRM University-AP</p>
+            <p>(GPA: 8.31/10.0)</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2023</div>
+          <div class="edu-info">
+            <h3>Class 12th</h3>
+            <p>Bhashyam Junior College</p>
+            <p>(Percentage: 8.98)</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2021</div>
+          <div class="edu-info">
+            <h3>Class 10th</h3>
+            <p>Bhashyam School</p>
+            <p>(Percentage: 100%)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="section-separator" />
+    <section id="projects" class="section projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="ridesharing.jpeg" alt="Ride-Sharing App" />
+          <h3>Ride-Sharing App (C++)</h3>
+          <p>
+            Designed and implemented a console-based ride-sharing system using OOP and STL for ride booking, driver allocation, and fare calculation.
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="todo.jpeg" alt="To-Do List Web App" />
+          <h3>To-Do List Web App</h3>
+          <p>
+            Built a full-stack task management app using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL for user-specific data storage and dynamic updates.
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="cosmetic.jpeg" alt="Cosmetic Comparator App" />
+          <h3>Cosmetic Comparator</h3>
+          <p>
+            Python-based app for comparing cosmetic products by ingredients, effects, and user-defined filters — no machine learning used.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="section-separator" />
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>Back-end Developer</h3>
+          <p>
+            Build and manage APIs, databases, and server-side logic with secure, scalable architecture.
+          </p>
+          <h4>Languages:</h4>
+          <p>PHP, Python, C, C++</p>
+          <h4>My Tools:</h4>
+          <p>Node.js, Express.js, MySQL, MongoDB</p>
+        </div>
+        <div class="skill-card">
+          <h3>Front-end Developer</h3>
+          <p>
+            Develop responsive web apps with clean interfaces and dynamic user experiences.
+          </p>
+          <h4>Technologies Stack:</h4>
+          <p>HTML, CSS, JavaScript</p>
+          <h4>My Tools:</h4>
+          <p>Bootstrap, GitHub</p>
+        </div>
+        <div class="skill-card">
+          <h3>Programmer</h3>
+          <p>
+            Write clean, optimized code and implement efficient data structures and algorithms.
+          </p>
+          <h4>Concepts:</h4>
+          <p>OOP, Data Structures, Algorithms</p>
+          <h4>Languages:</h4>
+          <p>Python, C++, JavaScript</p>
+        </div>
+      </div>
+    </section>
+    <hr class="section-separator" />
+    <section id="contact" class="contact-form-section">
+      <h2 class="section-title">Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" rows="2" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+  <footer class="footer">
+    ©️ 2025 Hemasri. All rights reserved.
+  </footer>
+</html>
