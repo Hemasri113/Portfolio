@@ -66,7 +66,7 @@ portfolio/
 ## 🎯 Key Highlights
 
 - **GPA**: 8.31/10.0 (Current)
-- **Class 12th**: 8.98% (Bhashyam Junior College)
+- **Class 12th**: 8.98 (Bhashyam Junior College)
 - **Class 10th**: 100% (Bhashyam School)
 - **University**: SRM University-AP (Expected 2027)
 
